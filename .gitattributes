@@ -1,0 +1,2 @@
+# Preserve the exact bytes of the supplied workshop practice files.
+public/workshop-files/** -text
