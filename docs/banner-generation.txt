@@ -1,0 +1,7 @@
+Asset: public/assets/learning-robot.png
+Date: 2026-10-02
+Mode: built-in image_gen, image edit using the previous course banner as reference.
+Background: opaque.
+
+Prompt:
+Edit this course website banner. Keep the elegant dark navy and cyan technology background, holographic documents, image and flowchart symbolism, clear lighting, and left-side negative space. Completely replace the human-shaped female android with a small friendly gender-neutral educational robot: compact rounded white and navy body, simple smooth head with a subtle cyan face display, modest non-anatomical industrial design, no human chest or body curves, no human skin, no sexualized features. Robot is on the right interacting with a floating document and a small learning cube; the emphasis is learning, documents, and helpful technology. Professional welcoming university business AI workshop, sophisticated clean 3D illustration, restrained glow, uncluttered. Landscape 16:9 banner. No words, letters, numbers, logos or watermarks. Main subject and holographic documents should remain comfortably inside the image without cropping.

@@ -1,0 +1,76 @@
+<!doctype html><html lang="zh-Hant" class="access-pending"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="三小時繁體中文 AI 應用實作：提示詞、生圖修圖、NotebookLM 與 Gemini Skills。"><meta name="robots" content="noindex,nofollow"><title>評論與查核｜AI 應用實作</title><link rel="icon" href="/ai-tools-workshop/favicon.svg" type="image/svg+xml"><script type="module" src="/src/main.js"></script><style>.access-pending .course-shell{display:none}</style></head><body data-page="reviews" data-course-page><a class="skip" href="#main">跳到課程內容</a><div class="course-shell"><header class="mobile-header"><a href="course.html">AI 應用實作</a><button id="menu-toggle" type="button" aria-controls="sidebar" aria-expanded="false">課程目錄</button></header><aside class="sidebar" id="sidebar"><a class="brand" href="course.html"><span class="brand-icon">AI</span><span>AI 應用實作<small>從咖啡店案例開始</small></span></a><p class="nav-label">學習路線</p><nav aria-label="課程目錄"><a href="course.html" ><span>00</span>課程總覽<i data-nav-status="home" aria-hidden="true"></i></a><a href="tools.html" ><span>01</span>AI 工具比較<i data-nav-status="tools" aria-hidden="true"></i></a><a href="agents.html" ><span>02</span>Agent 與 API<i data-nav-status="agents" aria-hidden="true"></i></a><a href="prompting.html" ><span>03</span>提示詞練習<i data-nav-status="prompting" aria-hidden="true"></i></a><a href="images.html" ><span>04</span>生圖與修圖<i data-nav-status="images" aria-hidden="true"></i></a><a href="reviews.html" aria-current="page"><span>05</span>評論與查核<i data-nav-status="reviews" aria-hidden="true"></i></a><a href="notebook.html" ><span>06</span>NotebookLM 作品<i data-nav-status="notebook" aria-hidden="true"></i></a><a href="reports.html" ><span>07</span>報告與流程圖<i data-nav-status="reports" aria-hidden="true"></i></a><a href="skills.html" ><span>08</span>Gemini Skills<i data-nav-status="skills" aria-hidden="true"></i></a><a href="finish.html" ><span>09</span>成果與測驗<i data-nav-status="finish" aria-hidden="true"></i></a><a href="downloads.html" ><span>10</span>素材下載<i data-nav-status="downloads" aria-hidden="true"></i></a><a href="sources.html" ><span>11</span>官方說明<i data-nav-status="sources" aria-hidden="true"></i></a></nav><div class="sidebar-foot"><label for="course-progress">我的完成度 <b id="progress-label">0 / 8</b></label><progress id="course-progress" max="8" value="0"></progress><small>進度與筆記保存在這個瀏覽器</small><button type="button" class="leave-course">離開課程</button></div></aside><main id="main"><div class="topline"><a href="course.html">AI PRACTICE LAB</a><span>評論與查核</span></div><header class="lesson-heading"><span class="eyebrow">05 / AI 應用實作</span><h1>評論整理與來源查核</h1><p>整理 1–5 星評論，練習查證每一句話。</p></header><article class="lesson-body"><h3>練習一：整理商家評論</h3><p>先使用 A 店家背景與 B 六則評論。想增加練習量時，再用三十則版取代六則版。</p><div class="actions"><a class="button secondary" href="/ai-tools-workshop/materials/A_%E5%BA%97%E5%AE%B6%E8%83%8C%E6%99%AF.txt" download="A_店家背景.txt">下載 A 店家背景</a><a class="button secondary" href="/ai-tools-workshop/materials/B_%E6%A8%A1%E6%93%AC%E8%A9%95%E8%AB%96_6%E5%89%87.txt" download="B_模擬評論_6則.txt">下載 B 六則評論</a></div><ol class="steps"><li>開啟 NotebookLM，建立新筆記本，名稱填入「巷口咖啡服務改善」。若頁面使用 Gemini Notebook 名稱，使用對應的筆記本入口。</li><li>在「新增來源」選擇上傳，加入 A 與 B 的 TXT。若上傳失敗，開啟 TXT 全選複製，改用貼上文字來源。</li><li>等待處理完成，點開來源確認內容，再勾選 A 與 B。六則與三十則版本不要同時匯入，以免重複。</li><li>在設定中把輸出語言改成繁體中文，將下方提示詞貼到中間聊天框。</li><li>點回答旁的引用，回查原句是否支持整個說法。</li></ol><div class="prompt"><div class="prompt-head"><div><span class="eyebrow">貼到 NotebookLM 聊天框</span><h4>評論分類與證據</h4></div><button type="button" class="copy" data-copy="prompt-6" aria-label="複製：評論分類與證據">複製提示詞</button></div><pre id="prompt-6">請只根據已勾選的材料 A 與 B，用繁體中文整理評論。
+用表格列出：評論編號、星等、顧客表達的問題或優點、主題分類、原文依據。
+一則評論可有多個主題；保留正面與負面意見。
+請區分「顧客表示」與「已確認的店家事實」。重要敘述附來源引用。
+這些是刻意設計的虛構評論，不要推論全店滿意度或真實星等分布。</pre></div><div class="prompt"><div class="prompt-head"><div><span class="eyebrow">貼到 NotebookLM 聊天框</span><h4>檢查店長的說法</h4></div><button type="button" class="copy" data-copy="prompt-7" aria-label="複製：檢查店長的說法">複製提示詞</button></div><pre id="prompt-7">店長認為：「客人抱怨，一定是價格太高。全面打折就能解決。」
+請只根據目前來源，分成「材料支持」「尚未支持」「待補資料」三部分檢查這句話。
+找出支持與不同方向的評論編號並附引用；不要把少數留言當成全體顧客意見，也不要把建議寫成確定因果。</pre></div><details><summary>查看 A 店家背景</summary><div class="detail-content"><pre>資料名稱：A 店家背景。性質：虛構教學案例。
+巷口咖啡是一家位於辦公商圈的小店，中午同時接待內用、外帶與預訂取餐的顧客。
+最近店長收到候餐較久、取餐順序不清楚與優惠說法不一致的意見。店內有新進同仁，但目前沒有統一的常見問題表。
+店長提出三種想法：全面打折、製作新人常見問題表、改善取餐與客訴流程。尚未決定先做哪一項。
+目前沒有整理營收變化、所有顧客的滿意度、精確候餐時間、再次購買率或改善前後數據。
+本案例的目標是提出可以試行的服務改善方案，並列出未來需要記錄的資料。</pre></div></details><details><summary>查看 B 六則評論</summary><div class="detail-content"><pre>材料 B｜巷口咖啡：模擬 Google 地圖商家評論（入門版・6 則）
+
+【資料性質】
+本檔為 AI 生成的繁體中文教學素材，模擬 Google 地圖（Google Maps）商家評論的文字形式。全部店家情境、暱稱、日期、星等與消費經驗均為虛構，未擷取真實平台資料，也未發布至任何商家頁面。案例名稱「巷口咖啡」不指涉任何真實同名商家。
+
+【閱讀說明】
+每則評論包含可回查的評論編號、模擬發表日期、虛構暱稱、星等與原文。日期是模擬發表日期，不一定是到店日期。評論中的時間、價格與事件只是虛構顧客的敘述，未經訂單、監視紀錄或店方資料核實；不可直接當成正式菜單、營運紀錄或已確認的事件。
+素材刻意涵蓋不同星等與意見，並非隨機抽樣，不代表真實星等分布、全體顧客滿意度、營收或改善成效。分析時請區分「顧客表示」與「店家實際發生」。未提及的資訊請標示未提供。
+
+【本檔評論數】6 則
+
+評論編號：R001
+模擬發表日期：2026-09-01
+顧客暱稱：午休倒數中（虛構）
+星等：1 星（滿分 5 星） ★☆☆☆☆
+評論原文：
+平日中午外帶一杯拿鐵和一份吐司，結帳時問大概多久，店員說一下就好。我看手機大概等了二十多分鐘，後來才知道吐司還沒做好。趕著回公司，只好一直站在櫃檯附近等。拿鐵其實不難喝，但如果一開始告訴我要等這麼久，我就不會點餐了。
+
+────────────────────────
+
+評論編號：R002
+模擬發表日期：2026-09-02
+顧客暱稱：小安的日常（虛構）
+星等：2 星（滿分 5 星） ★★☆☆☆
+評論原文：
+門口看到套餐優惠就進來，點餐時第一位店員說飲料可以折，結帳換另一位卻說我點的品項不適用。兩個人又去問別人，後面的人一直等，我也很尷尬。最後照原價付了。不是一定要便宜那幾十元，是希望點餐前就能知道到底怎麼算。
+
+────────────────────────
+
+評論編號：R003
+模擬發表日期：2026-09-03
+顧客暱稱：咖啡散步（虛構）
+星等：3 星（滿分 5 星） ★★★☆☆
+評論原文：
+第一次來，冰拿鐵喝起來順口，店裡也乾淨。我這次付一百四十元，以自己平常買外帶咖啡的習慣來說稍高。如果坐下來休息可能還可以，只是我趕時間直接帶走，感覺比較不划算。服務沒有遇到什麼問題，就是價格不太符合我的日常預算。
+
+────────────────────────
+
+評論編號：R004
+模擬發表日期：2026-09-04
+顧客暱稱：午後讀幾頁（虛構）
+星等：4 星（滿分 5 星） ★★★★☆
+評論原文：
+週四下午來看書，窗邊的光很好，咖啡也喜歡。問店員哪款比較不酸，她有耐心說明。可惜我坐的位置附近沒有插座，換位子又有點不好意思，就沒待太久。下次會帶本紙本書來，整體還是舒服的店。
+
+────────────────────────
+
+評論編號：R005
+模擬發表日期：2026-09-05
+顧客暱稱：早起的阿哲（虛構）
+星等：5 星（滿分 5 星） ★★★★★
+評論原文：
+早上上班前買美式，前面只有一位客人，很快就拿到了。店員有再確認我要熱的還是冰的，也提醒杯蓋已經扣好。咖啡香氣不錯，這個時段來很方便，之後經過還會買。
+
+────────────────────────
+
+評論編號：R006
+模擬發表日期：2026-09-06
+顧客暱稱：不加糖謝謝（虛構）
+星等：2 星（滿分 5 星） ★★☆☆☆
+評論原文：
+點餐時說了不要糖，拿到卻是有甜味的，回去反映後店員願意重做，這點謝謝。但重新等的時候沒有人跟我說還要多久，也不確定是不是忘了我。後來飲料是對的，只是原本短短的休息時間就這樣用掉了。
+</pre></div></details><label class="check"><input type="checkbox" class="progress-check"><span>我已點開至少一個引用，記下「AI 句子、來源原句、我的判斷」。</span></label></article><details class="notes-panel"><summary>我的練習筆記 <span class="note-saved" id="note-state"></span></summary><div class="detail-content"><label for="lesson-note">記下已核對的原句、還不確定的地方，或準備帶回工作的做法。</label><textarea id="lesson-note" rows="5" maxlength="15000" placeholder="AI 句子：
+來源原句：
+我的判斷："></textarea><div class="actions"><button type="button" class="button" id="save-note">儲存這頁筆記</button><button type="button" class="button secondary" data-export-records>下載全部學習紀錄</button></div><p class="caption">只保存在本機瀏覽器，不會傳送到 AI 或伺服器。</p></div></details><nav class="page-navigation" aria-label="前後單元"><a href="images.html"><small>上一頁</small>生圖與修圖</a><a href="notebook.html"><small>下一頁</small>NotebookLM 作品</a></nav><footer><p>AI 應用實作 · 內容更新 2026.10.02</p><p>課程進度與筆記只保存在這個瀏覽器。<a href="finish.html#records">查看及匯出紀錄</a></p><a href="index.html">課程介紹</a></footer><div id="toast" role="status" aria-live="polite"></div></main></div><noscript><div class="access-fallback"><h1>請啟用 JavaScript</h1><p>課程碼與互動練習需要 JavaScript。</p><a href="index.html">返回課程入口</a></div></noscript></body></html>

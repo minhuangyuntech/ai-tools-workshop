@@ -1,0 +1,7 @@
+﻿資料名稱：C 研究摘述。性質：真實研究的教學用中文摘述，不是原文逐字翻譯。
+研究：Generative AI at Work，NBER Working Paper 31161，2023。
+作者：Erik Brynjolfsson、Danielle Li、Lindsey R. Raymond。
+研究使用 5,179 名客服人員的資料，分析生成式 AI 對話助理分階段導入後的工作表現。
+研究發現平均生產力有所提升，效果在不同工作者之間有差異。
+這份短摘述沒有提供完整分析方法、所有結果與限制，讀者應回原論文查閱。這也不是巷口咖啡的實驗，不能直接推論該店會有相同成效。
+來源：https://www.nber.org/papers/w31161

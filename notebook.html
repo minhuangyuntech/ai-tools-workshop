@@ -1,0 +1,112 @@
+<!doctype html><html lang="zh-Hant" class="access-pending"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="三小時繁體中文 AI 應用實作：提示詞、生圖修圖、NotebookLM 與 Gemini Skills。"><meta name="robots" content="noindex,nofollow"><title>NotebookLM 作品｜AI 應用實作</title><link rel="icon" href="/ai-tools-workshop/favicon.svg" type="image/svg+xml"><script type="module" src="/src/main.js"></script><style>.access-pending .course-shell{display:none}</style></head><body data-page="notebook" data-course-page><a class="skip" href="#main">跳到課程內容</a><div class="course-shell"><header class="mobile-header"><a href="course.html">AI 應用實作</a><button id="menu-toggle" type="button" aria-controls="sidebar" aria-expanded="false">課程目錄</button></header><aside class="sidebar" id="sidebar"><a class="brand" href="course.html"><span class="brand-icon">AI</span><span>AI 應用實作<small>從咖啡店案例開始</small></span></a><p class="nav-label">學習路線</p><nav aria-label="課程目錄"><a href="course.html" ><span>00</span>課程總覽<i data-nav-status="home" aria-hidden="true"></i></a><a href="tools.html" ><span>01</span>AI 工具比較<i data-nav-status="tools" aria-hidden="true"></i></a><a href="agents.html" ><span>02</span>Agent 與 API<i data-nav-status="agents" aria-hidden="true"></i></a><a href="prompting.html" ><span>03</span>提示詞練習<i data-nav-status="prompting" aria-hidden="true"></i></a><a href="images.html" ><span>04</span>生圖與修圖<i data-nav-status="images" aria-hidden="true"></i></a><a href="reviews.html" ><span>05</span>評論與查核<i data-nav-status="reviews" aria-hidden="true"></i></a><a href="notebook.html" aria-current="page"><span>06</span>NotebookLM 作品<i data-nav-status="notebook" aria-hidden="true"></i></a><a href="reports.html" ><span>07</span>報告與流程圖<i data-nav-status="reports" aria-hidden="true"></i></a><a href="skills.html" ><span>08</span>Gemini Skills<i data-nav-status="skills" aria-hidden="true"></i></a><a href="finish.html" ><span>09</span>成果與測驗<i data-nav-status="finish" aria-hidden="true"></i></a><a href="downloads.html" ><span>10</span>素材下載<i data-nav-status="downloads" aria-hidden="true"></i></a><a href="sources.html" ><span>11</span>官方說明<i data-nav-status="sources" aria-hidden="true"></i></a></nav><div class="sidebar-foot"><label for="course-progress">我的完成度 <b id="progress-label">0 / 8</b></label><progress id="course-progress" max="8" value="0"></progress><small>進度與筆記保存在這個瀏覽器</small><button type="button" class="leave-course">離開課程</button></div></aside><main id="main"><div class="topline"><a href="course.html">AI PRACTICE LAB</a><span>NotebookLM 作品</span></div><header class="lesson-heading"><span class="eyebrow">06 / AI 應用實作</span><h1>NotebookLM 四種作品</h1><p>用活動企劃做簡報、心智圖、學習卡與資訊圖表。</p></header><article class="lesson-body"><h3>練習二：一份活動企劃，四種作品</h3><p>你現在是巷口咖啡的活動工作人員。用同一份「午後小學堂」企劃，準備開會簡報、心智圖、店員學習卡與活動資訊圖表。</p><div class="actions"><a class="button secondary" href="/ai-tools-workshop/materials/D_%E5%92%96%E5%95%A1%E6%B4%BB%E5%8B%95%E4%BC%81%E5%8A%83.txt" download="D_咖啡活動企劃.txt">下載 D 活動企劃</a></div><aside class="note">另建「巷口咖啡活動企劃」筆記本，只匯入材料 D。不要把本站步驟、提示詞或整包 ZIP 當成活動來源。D 的 S01–S10 已包含四項作品所需的規則與數字。</aside><ol class="steps"><li>建立新筆記本，匯入 D_咖啡活動企劃.txt。</li><li>點開來源，確認能看到 S01～S10。只勾選材料 D。</li><li>先用下方提示詞核對關鍵資料，再選擇作品分頁繼續。</li></ol><div class="prompt"><div class="prompt-head"><div><span class="eyebrow">貼到 NotebookLM 聊天框</span><h4>先確認資料，再做作品</h4></div><button type="button" class="copy" data-copy="prompt-8" aria-label="複製：先確認資料，再做作品">複製提示詞</button></div><pre id="prompt-8">請只根據材料 D，用繁體中文列出活動名稱、日期、兩場時間、每場名額、費用、報名截止、取消及轉讓截止、回訪券條件、總預算與三個數量目標。每項標示 S01～S10 的對應章節，重要資訊附來源引用。把計畫、目標、假設情境與實際結果分清楚；資料沒有提供就寫「未提供」。</pre></div><details><summary>閱讀完整活動企劃（材料 D）</summary><div class="detail-content"><pre>材料 D｜巷口咖啡午後小學堂 活動企劃書
+版本 D1｜2026 年 10 月 2 日｜教學用虛構資料
+
+資料聲明
+本資料是為 NotebookLM 課堂實作設計的模擬企劃。店名不指涉任何真實同名商家；人物、活動、日期安排、價格、預算與目標均為虛構設定。活動尚未舉行，沒有實際報名、營收、滿意度或成效資料。文中的規則是「本模擬企劃採用的規則」，不是任何真實店家的現行承諾。本資料沒有可使用的地址、電話、報名網址或 QR Code。
+
+S01 店家與活動目的
+巷口咖啡是一間虛構的社區咖啡店，平常提供咖啡、點心與內用座位。本次以店內其中 12 個座位作為活動區，並非全店座位數。
+前一個教學單元的模擬評論提出候餐資訊不清楚、優惠說法不一致等觀察線索。本次活動計畫練習清楚的說明與服務流程，不代表評論已證實問題發生頻率，也不代表辦活動就能解決全部客訴。
+活動名稱：巷口咖啡午後小學堂。
+活動主題：第一次認識自己的咖啡口味。
+目的：讓初學者了解咖啡風味、示範清楚一致的現場服務，並測試活動後的回訪意願。
+活動定位：小規模體驗與服務流程試辦。本次不以單日獲利作為唯一目標，亦不承諾活動後營收增加。
+
+S02 對象與活動基本資料
+主要對象：18 歲以上、對咖啡有興趣但不熟悉風味描述的附近上班族、居民與在職學生。
+活動日期：2026 年 11 月 14 日，星期六。
+第一場：14:00 至 15:00；報到時間 13:45 至 13:55。
+第二場：16:00 至 17:00；報到時間 15:45 至 15:55。
+每場 60 分鐘，每場最多 12 人，兩場總容量 24 人。每人限報一場。
+活動地點：巷口咖啡店內活動區。實際地址未提供。
+報名費：每人新臺幣 199 元，為本模擬活動的每人應付總額。
+費用包含：一場體驗、活動中的少量品飲、一杯指定飲品、風味學習單，以及完成報到者可領取的一張 30 元回訪券。
+指定飲品：美式或拿鐵二選一，可選冰或熱；不包含加價配料、其他飲品或餐點。活動品飲不等於額外提供不限量飲料。
+本活動沒有提供無咖啡因品飲替代方案。品飲含咖啡因，拿鐵含乳；有飲食限制者請在報名前詢問，現場人員不提供醫療建議。
+
+S03 報名與取消規則
+報名期間：2026 年 10 月 26 日至 11 月 10 日，額滿提前截止。
+方式：到店櫃檯選擇場次、留下姓名或稱呼及必要聯絡方式、完成付款，取得含報名編號的確認單。沒有線上報名連結。
+只有完成付款並取得確認單，才算報名完成；單純詢問不保留名額。每場以 12 人為上限，沒有開放超額或未付款候補。
+報名資料只供本活動聯繫與核對，不自動加入行銷名單。課堂演練一律使用虛構資料。
+取消：2026 年 11 月 11 日 18:00 前提出可全額退款；之後不受理顧客主動取消的退款。
+轉讓：2026 年 11 月 13 日 18:00 前可免費更換參加者一次，須由原報名者持報名編號向櫃檯申請。不得換場次。
+遲到：活動開始後超過 10 分鐘，不再入場，也不另外補課或退款。此規則須在付款前告知。
+若店家取消活動：通知已報名者並全額退款。活動時程不得自行改成其他日期而未通知。
+
+S04 每場 60 分鐘的體驗流程
+第 0 至 10 分鐘：歡迎與口味暖身。講師說明今天做什麼，請學員用日常食物描述喜歡的味道。
+第 10 至 25 分鐘：風味入門。介紹酸、苦、甜感與香氣，說明感受可能因人而異，不設唯一喜好答案。
+第 25 至 45 分鐘：引導品飲。每人按指示少量品飲，完成風味學習單，不要求背專業術語。
+第 45 至 55 分鐘：挑選適合自己的飲品。以美式或拿鐵的差異討論個人偏好，領取已登記的指定飲品。
+第 55 至 60 分鐘：回顧與填寫回饋。說明回訪券期限及使用條件，確認學員知道如何詢問問題。
+五段時間為 10、15、20、10、5 分鐘，合計 60 分鐘。報到時間不包含在上述 60 分鐘內。
+
+S05 服務流程與人員分工
+店長小周：負責名額、付款與退款核對、爭議處理、當日決策及事後彙整。
+講師阿岑：負責活動內容、品飲引導、飲食限制提醒及現場問答。
+接待小安：負責報到、飲品選擇核對、回訪券發放及回饋表提醒。
+吧台阿凱：負責品飲準備、指定飲品製作、出杯順序與飲品錯誤更正。
+四個角色均為虛構安排，不代表店家既有的完整員工編制。
+報到時，小安核對報名編號與姓名，確認美式或拿鐵及冰熱，再發放學習單和編號回訪券。每名實際報到者只領一張券，未報到者不領券。
+若飲品較慢：接待向吧台確認後再回覆預估時間；尚未確認就告知正在確認，不直接說「馬上好」。
+若飲品做錯：接待記錄錯誤，吧台確認重做安排，接待向顧客更新等待資訊。退款或例外要求交給店長決定，店員不得自行承諾額外優惠。
+遇到爭議：先記錄問題與報名編號；資料不足先補充；一般說明由接待處理，退款、超額入場等例外由店長判斷；處理後告知結果並記錄是否結案。
+
+S06 回訪券與對外宣傳規則
+券面額：新臺幣 30 元。
+發放：每位完成當日報到者一張，最多 24 張。券有唯一編號，用於避免重複核銷。
+使用期間：2026 年 11 月 15 日至 11 月 30 日，活動當天不能使用。
+適用條件：到店購買一杯原價至少 120 元的飲品，可折抵 30 元。只適用飲品，不適用餐點、活動報名費或外送訂單。
+同一筆訂單限用一張，不可與其他折扣或優惠合併使用，不找零、不兌現、不重複使用。結帳前出示原券；遺失不補發。此教材不設定其他未寫明的優惠。
+對外可用的宣傳文字：
+「巷口咖啡午後小學堂，第一次認識自己的咖啡口味。11 月 14 日兩場小班體驗，每場 12 人，每人 199 元。包含品飲、一杯指定飲品、風味學習單與一張 30 元回訪券。10 月 26 日至 11 月 10 日到店櫃檯報名，額滿提前截止。回訪券限 11 月 15 日至 30 日，購買原價至少 120 元的單杯飲品使用，每筆訂單限一張，不與其他優惠併用。教學用虛構活動，非實際招生。」
+宣傳不得寫成「全店免費喝」「全品項折 30 元」「活動當天可用券」或「保證改善滿意度」。地址、電話及網址未提供，不能補造。
+
+S07 準備與宣傳時程
+10 月 19 日至 10 月 23 日：確認課程、品飲物料、名額及單一版活動規則。小周負責核定，阿岑確認教學流程。
+10 月 24 日至 10 月 25 日：完成店內海報、社群圖片草稿和報名確認單。所有管道使用同一套日期與優惠規則。
+10 月 26 日至 11 月 10 日：到店報名與付款，接待每日更新兩場剩餘名額。
+11 月 11 日至 11 月 13 日：核對名單、飲品需求與提醒訊息，完成員工演練。退款與轉讓依 S03 各自的截止時間辦理，不可混為同一期限。
+11 月 14 日 13:00 至 13:40：布置、物料與設備檢查。13:45 開始第一場報到。
+11 月 14 日 15:00 至 15:40：整理活動區、補充物料，15:45 開始第二場報到。
+11 月 14 日 17:00 至 17:30：清點、記錄現場問題、核對報到人數與回饋份數。
+11 月 15 日至 11 月 30 日：記錄回訪券核銷。12 月 2 日彙整活動紀錄及檢討，不把尚未發生的目標寫成成果。
+
+S08 活動預算與收入情境
+下列均為新臺幣預估金額，不是報價單或實際支出。預算按最多 24 人準備。
+品飲與指定飲品材料：24 人乘以每人 75 元，共 1,800 元，占總預算 30%。
+講師費：1,500 元，占總預算 25%。
+活動額外人力：1,200 元，占總預算 20%。
+宣傳設計：600 元，占總預算 10%。
+印刷與學習單：300 元，占總預算 5%。
+備用金：600 元，占總預算 10%。
+預估總預算：6,000 元；六項比例合計 100%。
+若 20 人付費參加且無退款：報名收入為 20 乘以 199，等於 3,980 元。
+若滿額 24 人付費參加且無退款：報名收入為 24 乘以 199，等於 4,776 元。
+只用報名收入減 6,000 元預算，兩個情境差額分別為負 2,020 元與負 1,224 元；這是簡化比較，不能稱為完整淨利或投資報酬率。
+預算未分攤平常的店租與一般營運固定成本，未納入活動後回購的收入、成本或回訪券折抵影響。最多 24 張券乘以 30 元，券面折抵上限為 720 元；這不是已發生的費用，也不能直接當成回購營收。
+
+S09 觀察指標與記錄方式
+指標一：實際報到人數。目標至少 20 人；以報到名單中的不重複參加者計算，上限 24 人。20 除以 24 約為 83.3%，是目標人數占容量比例，不是已達成率。
+指標二：有效回饋份數。目標至少 16 份；一人最多一份，至少完成整體體驗評分與一項文字回饋才算有效。若實際報到為 20 人，16 份相當於 80%；真正回收率應以當天實際報到人數作分母。
+指標三：有效回訪券核銷張數。目標至少 6 張；按不重複券號計算，觀察截止日為 11 月 30 日。若實際發券 20 張，6 張相當於 30%；真正核銷率須以實際發券數為分母，不能固定除以總容量 24。
+指標四：服務問題紀錄。記錄問題類型、發生時間、處理角色與是否結案，這次不預設改善百分比。
+目前缺少：實際報名與退款紀錄、實際支出、報到名單、回饋內容、核銷結果、活動前可比較的基準及後續購買毛利。因此不能判定活動成功、滿意度提升或營收增加。
+
+S10 員工常見問答
+問：每個人可以報兩場嗎？答：不行，每人限報一場，每場最多 12 人。
+問：199 元有包含餐點嗎？答：沒有，包含品飲、一杯指定飲品、學習單及符合報到條件的回訪券。
+問：拿鐵可以選冰的嗎？答：可以，指定飲品是美式或拿鐵，可選冰或熱。
+問：打電話詢問後就算保留名額嗎？答：不算，要到櫃檯完成付款並取得確認單。
+問：活動當天可用回訪券折報名費嗎？答：不行，券從 11 月 15 日才可用，而且不適用報名費。
+問：可以用券買一杯原價 110 元的飲品嗎？答：不行，單杯原價須至少 120 元。
+問：一張訂單買兩杯，可以使用兩張券嗎？答：不行，每筆訂單限一張券。
+問：優惠期限不清楚時怎麼辦？答：先查 S06 的單一版規則，必要時找店長確認，不自行加碼。
+問：11 月 12 日才想取消，可以退款嗎？答：已超過顧客主動取消退款期限；若符合轉讓期限，可依規則更換參加者一次。
+問：店家取消活動怎麼處理？答：通知已報名者並全額退款。
+問：完成 20 人目標就代表賺錢嗎？答：不代表，該收入情境為 3,980 元，低於 6,000 元預估預算，且未涵蓋所有成本。
+問：收到 16 份回饋就能說滿意度 80% 嗎？答：不能，回收率與滿意度不同，且回收率的分母是實際報到人數。
+</pre></div></details><div class="tabs" role="tablist" aria-label="NotebookLM 作品類型"><button type="button" id="tab-deck" role="tab" aria-controls="panel-deck" aria-selected="true" tabindex="0">簡報</button><button type="button" id="tab-mindmap" role="tab" aria-controls="panel-mindmap" aria-selected="false" tabindex="-1">心智圖</button><button type="button" id="tab-cards" role="tab" aria-controls="panel-cards" aria-selected="false" tabindex="-1">學習卡</button><button type="button" id="tab-infographic" role="tab" aria-controls="panel-infographic" aria-selected="false" tabindex="-1">資訊圖表</button></div><div class="tab-panel" role="tabpanel" id="panel-deck" aria-labelledby="tab-deck" tabindex="0"><h3>簡報練習</h3><ol class="steps"><li>在右側 Studio／工作室找到 Slide Deck／簡報，先按鉛筆或自訂入口。</li><li>選 Presenter Slides／講者投影片、預設長度與繁體中文。</li><li>將下方內容貼入自訂欄位並產生；約 8 頁是要求，實際頁數需確認。</li><li>打開作品逐頁看，從更多選單下載 PDF 或 PowerPoint；以帳號可用選項為準。</li></ol><div class="prompt"><div class="prompt-head"><div><span class="eyebrow">貼到「簡報」自訂欄位</span><h4>活動開會簡報</h4></div><button type="button" class="copy" data-copy="prompt-9" aria-label="複製：活動開會簡報">複製提示詞</button></div><pre id="prompt-9">請只根據材料 D，製作給店長與活動工作人員開會用的繁體中文簡報，建議約 8 頁，依序涵蓋活動目的、對象與日期名額、報名與費用、60 分鐘流程、分工與服務處理、回訪券規則、6,000 元預算、目標與待補資料。每頁一個主題、重點短句，使用米白與青綠配色。流程用時間軸，預算用金額長條圖。標明「教學用虛構企劃，活動尚未舉行」。20 人、16 份、6 張都是目標，不可寫成成果；199 元是報名費、30 元是券面額，勿混淆。可在頁尾標示來源章節。不要補造地址、網址、照片證據或成效。</pre></div><aside class="note">核對：流程、預算與「目標」是否清楚。使用 Revise／修訂時，把正確數字與原文放進修改指令；官方說明提醒修訂不納入來源，完成後須再次回查。</aside><a href="https://support.google.com/gemininotebook/answer/16757456?hl=en" target="_blank" rel="noopener noreferrer">簡報官方操作說明<span class="sr-only">（另開分頁）</span></a></div><div class="tab-panel" role="tabpanel" id="panel-mindmap" aria-labelledby="tab-mindmap" tabindex="0" hidden><h3>心智圖練習</h3><ol class="steps"><li>可先貼下方預習提示詞，讀一遍文字架構。</li><li>點聊天區的 Mind Map／心智圖快捷按鈕；若入口位於 Studio，使用對應功能。</li><li>在 Studio 開啟心智圖，展開「報名」或「回訪券」相關分支。</li><li>點一個節點後追問：「這個分支最容易說錯的兩項規則是什麼？請附原文依據。」並使用視窗下載功能保存。</li></ol><div class="prompt"><div class="prompt-head"><div><span class="eyebrow">貼到聊天框；接著另按內建心智圖</span><h4>心智圖文字預習</h4></div><button type="button" class="copy" data-copy="prompt-10" aria-label="複製：心智圖文字預習">複製提示詞</button></div><pre id="prompt-10">請只根據材料 D，整理繁體中文的三層文字大綱。中心為「巷口咖啡午後小學堂」，第一層分為活動目的、參加與報名、現場流程、服務分工、回訪券、預算與指標；每個分支列出短詞及對應章節。保留所有關鍵日期與限制，缺少資訊不要補造。這是心智圖的文字預習大綱，請不要聲稱已建立互動心智圖。</pre></div><aside class="note">聊天產生的大綱不是互動心智圖，也不保證控制內建心智圖的分支名稱。請檢查是否包含時間、報名、優惠、預算與目標。</aside><a href="https://support.google.com/gemininotebook/answer/16212283?hl=en" target="_blank" rel="noopener noreferrer">心智圖官方操作說明<span class="sr-only">（另開分頁）</span></a></div><div class="tab-panel" role="tabpanel" id="panel-cards" aria-labelledby="tab-cards" tabindex="0" hidden><h3>學習卡練習</h3><ol class="steps"><li>在 Studio 找到 Flashcards／學習卡，先按鉛筆或自訂。</li><li>難度選簡單，數量先選較少或標準；貼上提示詞並產生。</li><li>讀正面問題，先口頭作答，再翻到背面，標記已掌握或未掌握。</li><li>不理解時使用 Explain／解釋，回查來源後重練。若需保存，使用 CSV 下載功能。</li></ol><div class="prompt"><div class="prompt-head"><div><span class="eyebrow">貼到「學習卡」自訂欄位</span><h4>新進店員學習卡</h4></div><button type="button" class="copy" data-copy="prompt-11" aria-label="複製：新進店員學習卡">複製提示詞</button></div><pre id="prompt-11">請根據材料 D 為新進店員製作繁體中文學習卡，以報名、取消、轉讓、飲品選擇、回訪券、服務處理與成效判讀為主。每張正面只問一個問題，背面用 1～3 句回答並標示 S01～S10 對應章節。加入「一張訂單兩杯可用兩張券嗎」「回饋回收率能當滿意度嗎」等情境題。日期、金額與條件須精確；不要捏造新優惠。卡片數以系統實際產生為準，先讓我練習約 10 張。</pre></div><aside class="note">至少練習 5 張。挑一題優惠或取消規則，回到 S03 或 S06 核對。卡片數量以實際產出為準。</aside><a href="https://support.google.com/gemininotebook/answer/16958963?hl=en" target="_blank" rel="noopener noreferrer">學習卡官方操作說明<span class="sr-only">（另開分頁）</span></a></div><div class="tab-panel" role="tabpanel" id="panel-infographic" aria-labelledby="tab-infographic" tabindex="0" hidden><h3>資訊圖表練習</h3><ol class="steps"><li>在 Studio 找到 Infographic／資訊圖表，先按鉛筆或自訂。</li><li>語言選繁體中文、方向選橫式、詳細程度選標準。</li><li>貼上提示詞並產生。等待時先將 S08 六項預算相加。</li><li>打開作品放大檢查數字、中文字與單位，再從更多選單下載 PNG。</li></ol><div class="prompt"><div class="prompt-head"><div><span class="eyebrow">貼到「資訊圖表」自訂欄位</span><h4>活動總覽資訊圖表</h4></div><button type="button" class="copy" data-copy="prompt-12" aria-label="複製：活動總覽資訊圖表">複製提示詞</button></div><pre id="prompt-12">請只根據材料 D，製作一張橫式繁體中文資訊圖表，對象為內部活動工作人員，標題為「巷口咖啡午後小學堂 活動總覽」。用簡潔專業風格、米白與青綠配色、大字和清楚單位。版面包含四區：一、11 月 14 日的兩場時間與每場 12 人；二、60 分鐘流程，五段分別為 10、15、20、10、5 分鐘；三、預算六項金額長條圖，總額 6,000 元；四、目標報到 20 人、有效回饋 16 份、回訪券核銷 6 張。請把「目標」放在每個目標數字旁，不使用達成進度條。金額單位為新臺幣。頁腳寫「教學用虛構企劃，尚無實際成效」。不要把報名收入當獲利，也不要把目標比例當滿意度。</pre></div><aside class="note">檢查五段流程是否合計 60 分鐘、六項預算是否合計 6,000 元。20 人、16 份、6 張是目標，不能畫成已完成的成果。</aside><a href="https://support.google.com/gemininotebook/answer/16758265?hl=en" target="_blank" rel="noopener noreferrer">資訊圖表官方操作說明<span class="sr-only">（另開分頁）</span></a></div><details><summary>延伸：改成顧客看的活動宣傳圖</summary><div class="detail-content"><p>把資訊圖表改成直式，讀者改為顧客。保留日期、費用與優惠限制，拿掉內部預算。</p><div class="prompt"><div class="prompt-head"><div><span class="eyebrow">貼到「資訊圖表」自訂欄位</span><h4>顧客版宣傳圖</h4></div><button type="button" class="copy" data-copy="prompt-13" aria-label="複製：顧客版宣傳圖">複製提示詞</button></div><pre id="prompt-13">請只根據材料 D 的 S02、S03、S06，製作面向顧客的直式繁體中文活動宣傳資訊圖表。重點為 11 月 14 日、14:00 與 16:00、每場 12 人、每人 199 元及包含內容，並寫明 10 月 26 日至 11 月 10 日到店櫃檯報名、額滿提前截止。清楚保留回訪券使用期間、單杯原價至少 120 元、每筆限一張、不與其他優惠併用。顯著標示「教學用虛構活動，非實際招生」。不要放內部預算或績效目標，不要補造地址、電話、網址或 QR Code。</pre></div></div></details><aside class="note">每種輸出先做一份。若遇免費額度限制，保存提示詞，先核對已有作品與原始資料；不要為了本次練習購買方案。生成時可先完成另一項閱讀與核對。</aside><label class="check"><input type="checkbox" class="progress-check"><span>我已保存活動作品，並核對至少一項日期、一個金額與一項優惠限制。</span></label></article><details class="notes-panel"><summary>我的練習筆記 <span class="note-saved" id="note-state"></span></summary><div class="detail-content"><label for="lesson-note">記下已核對的原句、還不確定的地方，或準備帶回工作的做法。</label><textarea id="lesson-note" rows="5" maxlength="15000" placeholder="AI 句子：
+來源原句：
+我的判斷："></textarea><div class="actions"><button type="button" class="button" id="save-note">儲存這頁筆記</button><button type="button" class="button secondary" data-export-records>下載全部學習紀錄</button></div><p class="caption">只保存在本機瀏覽器，不會傳送到 AI 或伺服器。</p></div></details><nav class="page-navigation" aria-label="前後單元"><a href="reviews.html"><small>上一頁</small>評論與查核</a><a href="reports.html"><small>下一頁</small>報告與流程圖</a></nav><footer><p>AI 應用實作 · 內容更新 2026.10.02</p><p>課程進度與筆記只保存在這個瀏覽器。<a href="finish.html#records">查看及匯出紀錄</a></p><a href="index.html">課程介紹</a></footer><div id="toast" role="status" aria-live="polite"></div></main></div><noscript><div class="access-fallback"><h1>請啟用 JavaScript</h1><p>課程碼與互動練習需要 JavaScript。</p><a href="index.html">返回課程入口</a></div></noscript></body></html>
